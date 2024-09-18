@@ -1,0 +1,12 @@
+第一个确定
+其余：
+parser.add_argument('--channels', type=int, default=128)
+parser.add_argument('--scaling_factor', type=float, default=1.8)
+parser.add_argument('--training_rate', type=float, default=0.8)
+parser.add_argument('--embedding_dimension', type=int, default=32)
+parser.add_argument('--learning_rate', type=float, default=0.005)
+
+300: AUC: 0.8977, AP: 0.9102
+400: AUC: 0.9031, AP: 0.9120
+★500: AUC: 0.9012, AP: 0.9125
+600: AUC: 0.8997, AP: 0.9116
